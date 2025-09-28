@@ -9,7 +9,7 @@ All colors MUST be HSL.
 @layer base {
   :root {
     /* Base Colors */
-    --background: 255 255 255;
+    --background: 0 0% 100%;
     --foreground: 215 27% 15%;
 
     /* Card Colors */
@@ -37,21 +37,21 @@ All colors MUST be HSL.
     --success-light: 200 75% 75%;
 
     /* Muted Colors */
-    --muted: 215 27% 97%;
-    --muted-foreground: 215 16% 47%;
+    --muted: 220 15% 97%;
+    --muted-foreground: 220 15% 47%;
 
     /* Accent Colors */
-    --accent: 215 27% 97%;
-    --accent-foreground: 215 27% 15%;
+    --accent: 220 15% 97%;
+    --accent-foreground: 220 27% 15%;
 
     /* Destructive */
     --destructive: 0 72% 51%;
     --destructive-foreground: 0 0% 100%;
 
     /* Border and Input */
-    --border: 215 27% 90%;
-    --input: 215 27% 90%;
-    --ring: 210 100% 47%;
+    --border: 220 15% 90%;
+    --input: 220 15% 90%;
+    --ring: 220 85% 45%;
 
     --radius: 0.5rem;
 
